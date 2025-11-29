@@ -38,7 +38,14 @@ function createPostElement(post, index) {
     // Post content
     const content = document.createElement('div');
     content.className = 'post-content';
-    content.innerHTML = post.content;
+
+    // Add image if present (before content)
+    if (post.imageUrl) {
+        const imageElement = createImageElement(post.imageUrl, post.imageAlt || post.title);
+        content.appendChild(imageElement);
+    }
+
+    content.innerHTML += post.content;
 
     // Add video if present
     if (post.videoUrl) {
@@ -63,6 +70,19 @@ function createPostElement(post, index) {
     article.appendChild(tagsContainer);
 
     return article;
+}
+
+function createImageElement(imageUrl, altText) {
+    const container = document.createElement('div');
+    container.className = 'image-container';
+
+    const img = document.createElement('img');
+    img.src = imageUrl;
+    img.alt = altText;
+    img.className = 'post-image';
+
+    container.appendChild(img);
+    return container;
 }
 
 function createVideoElement(videoUrl) {

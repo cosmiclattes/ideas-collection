@@ -1,7 +1,18 @@
 // Add your posts here
-// Each post should have: title, date, content (HTML string), tags (array), and optional videoUrl
+// Each post should have: title, date, content (HTML string), tags (array), and optional videoUrl/imageUrl
 
 const posts = [
+    {
+        title: "How a problem/challenge is an opportunity to learn",
+        date: "2025-11-29",
+        content: `
+            <p>Uri Alon talks about selecting a scientific problem to pursue in research - choosing challenges that help you learn new skills and knowledge while also solving useful problems.</p>
+            <p>This approach transforms obstacles into opportunities for growth, ensuring that even if the problem proves difficult, you gain valuable expertise along the way.</p>
+            <p><a href="https://www.weizmann.ac.il/mcb/alon/sites/mcb.UriAlon/files/uploads/nurturing/howtochoosegoodproblem.pdf" target="_blank">How to Choose a Good Scientific Problem (PDF)</a></p>
+            <p><a href="https://www.owlposting.com/p/endometriosis-is-an-incredibly-interesting" target="_blank">Example: Applying Uri Alon's approach to endometriosis research</a></p>
+        `,
+        tags: ["research", "learning", "problem-solving", "science"]
+    },
     {
         title: "We need to know What to do and the Why behind it",
         date: "2025-11-29",

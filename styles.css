@@ -120,6 +120,21 @@ main {
     border-bottom-color: var(--secondary-color);
 }
 
+/* Image Container */
+.image-container {
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
 /* Video Container */
 .video-container {
     position: relative;

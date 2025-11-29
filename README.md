@@ -63,6 +63,40 @@ git push origin main
 
 Your site will be live at `https://YOUR_USERNAME.github.io/ideas-collection/`
 
+## Adding Images
+
+You can add images to your posts in two ways:
+
+### Local Images
+
+1. Place your image in the `images/` folder
+2. Add the `imageUrl` field to your post:
+
+```javascript
+{
+    title: "My Post with Image",
+    date: "2025-11-29",
+    content: `<p>Your content here.</p>`,
+    imageUrl: "images/my-image.jpg",
+    imageAlt: "Description of the image", // Optional, defaults to post title
+    tags: ["example"]
+}
+```
+
+### External Images
+
+You can also use images hosted elsewhere:
+
+```javascript
+{
+    title: "Post with External Image",
+    date: "2025-11-29",
+    content: `<p>Your content here.</p>`,
+    imageUrl: "https://example.com/image.jpg",
+    tags: ["example"]
+}
+```
+
 ## Adding Videos
 
 ### YouTube Videos
@@ -128,6 +162,7 @@ ideas-collection/
 ├── styles.css      # All styling
 ├── app.js          # JavaScript for rendering posts
 ├── posts.js        # Your posts data
+├── images/         # Directory for post images
 └── README.md       # This file
 ```
 
