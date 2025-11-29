@@ -5,6 +5,8 @@ const posts = [
     {
         title: "How a problem/challenge is an opportunity to learn",
         date: "2025-11-29",
+        imageUrl: "images/uri_alon_solving_problem_also_learning.jpeg",
+        imageAlt: "Uri Alon's framework showing the intersection of solving problems and learning",
         content: `
             <p>Uri Alon talks about selecting a scientific problem to pursue in research - choosing challenges that help you learn new skills and knowledge while also solving useful problems.</p>
             <p>This approach transforms obstacles into opportunities for growth, ensuring that even if the problem proves difficult, you gain valuable expertise along the way.</p>
