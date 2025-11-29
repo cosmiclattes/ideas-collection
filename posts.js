@@ -3,6 +3,15 @@
 
 const posts = [
     {
+        title: "Every Mathematician has only a few tricks",
+        date: "2025-11-29",
+        content: `
+            <p>Be happy and ready to reuse ideas, explain existing ideas and keep repeating the tricks you've come up with, even if they are just a few, that alone takes you a long way.</p>
+            <p><a href="https://www.ams.org/notices/199701/comm-rota.pdf" target="_blank">Read the full article (PDF)</a></p>
+        `,
+        tags: ["mathematics", "philosophy", "wisdom"]
+    },
+    {
         title: "Welcome to Ideas Collection",
         date: "2025-11-29",
         content: `
