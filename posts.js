@@ -20,16 +20,6 @@ const posts = [
             <p><a href="https://www.ams.org/notices/199701/comm-rota.pdf" target="_blank">Read the full article (PDF)</a></p>
         `,
         tags: ["mathematics", "philosophy", "wisdom"]
-    },
-    {
-        title: "Example Video Post",
-        date: "2025-11-29",
-        content: `
-            <p>Here's how you can embed videos from YouTube or other platforms:</p>
-            <p>Replace the video ID in the URL to embed your own videos.</p>
-        `,
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-        tags: ["example", "video"]
     }
     // Add more posts below following the same format
     // Example:

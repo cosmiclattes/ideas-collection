@@ -79,6 +79,23 @@ You can also embed videos from:
 - **Vimeo**: `https://player.vimeo.com/video/VIDEO_ID`
 - **Dailymotion**: `https://www.dailymotion.com/embed/video/VIDEO_ID`
 
+### Example Video Post
+
+Here's a complete example of a post with an embedded video:
+
+```javascript
+{
+    title: "Example Video Post",
+    date: "2025-11-29",
+    content: `
+        <p>Here's how you can embed videos from YouTube or other platforms:</p>
+        <p>Replace the video ID in the URL to embed your own videos.</p>
+    `,
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    tags: ["example", "video"]
+}
+```
+
 ## Customization
 
 ### Colors
