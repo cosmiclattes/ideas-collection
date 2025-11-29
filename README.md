@@ -2,6 +2,10 @@
 
 A beautiful, blog-style GitHub Pages site for collecting and sharing inspiring ideas and videos.
 
+## Welcome
+
+This is your space to collect and share inspiring ideas, videos, and creative thoughts. Each post can contain text, links, and embedded videos. Start adding your own content by editing the `posts.js` file!
+
 ## Features
 
 - Clean, modern blog-style layout

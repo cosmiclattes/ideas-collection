@@ -12,15 +12,6 @@ const posts = [
         tags: ["mathematics", "philosophy", "wisdom"]
     },
     {
-        title: "Welcome to Ideas Collection",
-        date: "2025-11-29",
-        content: `
-            <p>This is your space to collect and share inspiring ideas, videos, and creative thoughts. Each post can contain text, links, and embedded videos.</p>
-            <p>Start adding your own content by editing the <code>posts.js</code> file!</p>
-        `,
-        tags: ["welcome", "meta"]
-    },
-    {
         title: "Example Video Post",
         date: "2025-11-29",
         content: `
