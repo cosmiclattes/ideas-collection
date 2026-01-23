@@ -3,6 +3,14 @@
 
 const posts = [
     {
+        title: "Recent discoveries on the acquisition of the highest levels of human performance",
+        date: "2026-01-23",
+        content: `
+            <p><a href="https://www.science.org/doi/10.1126/science.adt7790" target="_blank">Read the article</a></p>
+        `,
+        tags: ["performance", "research", "science"]
+    },
+    {
         title: "How a problem/challenge is an opportunity to learn",
         date: "2025-11-29",
         imageUrl: "images/uri_alon_solving_problem_also_learning.jpeg",
